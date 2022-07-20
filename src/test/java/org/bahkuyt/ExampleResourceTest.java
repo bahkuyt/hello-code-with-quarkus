@@ -15,7 +15,7 @@ public class ExampleResourceTest {
           .when().get("/resteasy/hello")
           .then()
              .statusCode(200)
-             .body(is("hello feres: angular ja3bassssaa"));
+             .body(is("hello feres"));
     }
 
 }
