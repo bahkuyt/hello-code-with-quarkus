@@ -15,7 +15,7 @@ public class ExampleResourceTest {
           .when().get("/resteasy/hello")
           .then()
              .statusCode(200)
-             .body(is("hello feres"));
+             .body(is("hello feres. za3ma temchi ????"));
     }
 
 }
