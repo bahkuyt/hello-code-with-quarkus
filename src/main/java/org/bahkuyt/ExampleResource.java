@@ -11,6 +11,6 @@ public class ExampleResource {
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     public String hello() {
-        return "hello feres: angular ja3bassa";
+        return "hello feres: angular ja3bassssaa";
     }
 }
